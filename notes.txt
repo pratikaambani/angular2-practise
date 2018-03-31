@@ -1,0 +1,25 @@
+Angular 5
+
+
+
+Ch 1
+
+What is it:
+JS Framework that allows to create reactive SPAs
+
+Angular Versions:
+1 and 2 totally different
+2 =~ 4 =~ 5
+
+Setup:
+download node.js
+
+E:\setup\repositories\programming\angular2>npm install -g @angular/cli
+
+E:\setup\repositories\programming\angular2>ng new my-first-app
+
+cd my-first-app
+
+ng serve
+
+localhost:4200
