@@ -23,3 +23,7 @@ cd my-first-app
 ng serve
 
 localhost:4200
+
+
+
+*.ts extensions for typescript
