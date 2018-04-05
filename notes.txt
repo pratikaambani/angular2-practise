@@ -157,6 +157,9 @@ It can be either of default one,
 		<div class="app-custom-root"></div>
 
 
+
+
+
 Data Binding:
 Kinda communication between TypeScript Code(Business Logic) of component and html templates(what user sees)
 
@@ -175,3 +178,9 @@ Two Way Data Binding: [(ngModel)]="data"
 
 1. String interpolation:
 adding class members/methods and reading them inside component files using {{variable/methodName}}
+
+2. Property Binding
+Binding native element property to typescript property
+
+Added button in servers.component.html and trying to retrieve value from ts file, it will read value and after 2 seconds will update as well
+
