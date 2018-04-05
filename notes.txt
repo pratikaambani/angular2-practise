@@ -156,7 +156,21 @@ It can be either of default one,
 	3.  selector: 'app-custom-root',
 		<div class="app-custom-root"></div>
 
-	
+
+Data Binding:
+Kinda communication between TypeScript Code(Business Logic) of component and html templates(what user sees)
+
+OUTPUT DATA:
+Different ways of communcation:
+String interpolation: {{data}}
+Property Binding: {{[property]="data"}}
+
+REACT TO USER EVENTS:
+Event Binding: (event)="expression"
+
+
+Now, combination of both directions, Two way Data Binding where we are able to react events and output something at same time
+Two Way Data Binding: [(ngModel)]="data"
 
 
 
