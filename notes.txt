@@ -131,3 +131,10 @@ Check the same in F12
 
 
 Instead of using external templates for styling we can use inline as well #template instead of #templateUrl
+
+
+
+Component Styles:
+add bootstrap classes and use em in app.component.html
+
+app.component.css:
