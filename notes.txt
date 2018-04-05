@@ -77,3 +77,19 @@ also edit angular-cli.json
 npm install --save bootstrap
 
 
+
+
+
+
+02 The Basics
+-------------------
+
+What happens when visiting that page in browser
+
+Editing the content of app.component.html will be reflected on application homepage but it is not the main page
+main page (#SPA) is index.html
+
+Components:
+Checkout main.ts, application starts from there
+
+Multiple componenets: So that logic can be replicated from the other one
