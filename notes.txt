@@ -118,3 +118,7 @@ Angular uses,
 Components: To build webpages
 Modules: to bundle different pieces of components into packages
 
+
+Creating components using CLI & Nesting Components
+ng generate component servers
+ng g c servers
