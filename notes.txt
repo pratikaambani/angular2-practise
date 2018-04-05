@@ -122,3 +122,9 @@ Modules: to bundle different pieces of components into packages
 Creating components using CLI & Nesting Components
 ng generate component servers
 ng g c servers
+
+Nesting components:
+Add newly created component inside the parent component or vice versa
+Also ensure parent one is registered in the mail app.component.ts file
+
+Check the same in F12
