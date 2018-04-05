@@ -142,3 +142,21 @@ app.component.css:
 alternatively,
 remove styleUrls and use styles array
 this one will be given priority
+
+
+
+Selector component:
+It can be either of default one,
+	1.  selector: 'app-custom-root',
+  		as it is
+
+  	2.	selector: '[app-custom-root]',
+  		<div app-custom-root></div>
+
+	3.  selector: 'app-custom-root',
+		<div class="app-custom-root"></div>
+
+	
+
+
+
