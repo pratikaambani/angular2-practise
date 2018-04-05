@@ -184,3 +184,4 @@ Binding native element property to typescript property
 
 Added button in servers.component.html and trying to retrieve value from ts file, it will read value and after 2 seconds will update as well
 
+another way of using property binding, with this commit
