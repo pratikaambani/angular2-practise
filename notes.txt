@@ -173,4 +173,5 @@ Now, combination of both directions, Two way Data Binding where we are able to r
 Two Way Data Binding: [(ngModel)]="data"
 
 
-
+1. String interpolation:
+adding class members/methods and reading them inside component files using {{variable/methodName}}

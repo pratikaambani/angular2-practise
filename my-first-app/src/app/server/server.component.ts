@@ -8,5 +8,10 @@ import { Component } from '@angular/core';
 })
 /*naming: NameOfComponent|Component*/
 export class ServerComponent {
-
+/*	: number and : String are optional here*/
+	serverId: number = 10;
+	serverStatus: String = 'offline';
+	getServerTimezone() {
+		return this.serverId + ' IST';
+	}
 }
