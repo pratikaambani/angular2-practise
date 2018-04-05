@@ -1,1 +1,142 @@
+█ [ E:\setup\repositories\programming\angular2 ] cmd
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+E:\setup\repositories\programming\angular2>cd
+█ [ E:\setup\repositories\programming\angular2 ] cd
+Please enter a path following the 'cd' command
+
+█ [ E:\setup\repositories\programming\angular2 ] cd
+Please enter a path following the 'cd' command
+
+█ [ E:\setup\repositories\programming\angular2 ] 
+Please enter a command
+█ [ E:\setup\repositories\programming\angular2 ] pwd
+'pwd' is not recognized as an internal or external command,
+operable program or batch file.
+
+█ [ E:\setup\repositories\programming\angular2 ] ll
+'ll' is not recognized as an internal or external command,
+operable program or batch file.
+
+█ [ E:\setup\repositories\programming\angular2 ] dir
+ Volume in drive E is Data
+ Volume Serial Number is BA2D-D0A6
+
+ Directory of E:\setup\repositories\programming\angular2
+
+31-03-2018  22:22    <DIR>          .
+31-03-2018  22:22    <DIR>          ..
+31-03-2018  22:06                63 .gitignore
+31-03-2018  21:58    <DIR>          my-first-app
+31-03-2018  22:16               402 notes.txt
+31-03-2018  22:22                 1 terminal.glue
+               3 File(s)            466 bytes
+               3 Dir(s)  53,743,828,992 bytes free
+
+█ [ E:\setup\repositories\programming\angular2 ] git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   my-first-app/src/app/app.component.ts
+	modified:   notes.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	terminal.glue
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+█ [ E:\setup\repositories\programming\angular2 ] git add .
+warning: LF will be replaced by CRLF in my-first-app/src/app/app.component.ts.
+The file will have its original line endings in your working directory.
+
+█ [ E:\setup\repositories\programming\angular2 ] glue PATH
+Glue could not identify that command.  Please try again.
+
+█ [ E:\setup\repositories\programming\angular2 ] glue path
+C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\pratik\AppData\Roaming\npm
+
+█ [ E:\setup\repositories\programming\angular2 ] git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   my-first-app/src/app/app.component.ts
+	modified:   notes.txt
+	new file:   terminal.glue
+
+
+█ [ E:\setup\repositories\programming\angular2 ] git add .
+
+█ [ E:\setup\repositories\programming\angular2 ] 
+Please enter a command
+█ [ E:\setup\repositories\programming\angular2 ] ll
+'ll' is not recognized as an internal or external command,
+operable program or batch file.
+
+█ [ E:\setup\repositories\programming\angular2 ] git add .
+
+█ [ E:\setup\repositories\programming\angular2 ] git
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+
+█ [ E:\setup\repositories\programming\angular2 ] ll
+'ll' is not recognized as an internal or external command,
+operable program or batch file.
+
+█ [ E:\setup\repositories\programming\angular2 ] ng serve
+node_modules appears empty, you may need to run `npm install`
+
+
+█ [ E:\setup\repositories\programming\angular2 ] ng serve
+node_modules appears empty, you may need to run `npm install`
+
+█ [ E:\setup\repositories\programming\angular2\my-first-app ] cd my-first-app
+E:\setup\repositories\programming\angular2\my-first-app
+
+
  

@@ -1,3 +1,5 @@
 ##main directory
 /my-first-app/e2e
 /my-first-app/node_modules
+
+/my-first-app/terminal.glue
