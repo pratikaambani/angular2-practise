@@ -26,4 +26,51 @@ localhost:4200
 
 
 
+01 Getting Started
+-------------------
+
+C1
 *.ts extensions for typescript
+
+C2
+direct response, in js we'd require setting up listeners
+-------------------
+
+
+Contents:
+
+Components: Angular Apps are built from Components
+Data Binding
+
+Directives: i.e. ng-model: 2-way data binding
+in-built and custom directives
+
+Services & Dependency Injection:
+Communication between modules
+
+Routing:
+management of different URLs
+
+Observables:
+Concept allow to work with Asynchronous code
+
+Forms Handling:
+
+Pipes:
+To transform output 
+
+http:
+
+Authentication:
+
+Optimizations:
+
+Deployment:
+
+Animations and Testing:
+
+
+
+
+Installing Bootstrap:
+also edit angular-cli.json
