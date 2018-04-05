@@ -90,6 +90,31 @@ Editing the content of app.component.html will be reflected on application homep
 main page (#SPA) is index.html
 
 Components:
+A simple class, a typescript class, so that angular is able to instantiate instantiate
+
 Checkout main.ts, application starts from there
 
 Multiple componenets: So that logic can be replicated from the other one
+
+
+
+Creating a component:
+Previous example: AppComponent, which was the root component, kinda main one
+
+custom component: server(new sub directory)
+nameOfComponent.component.ts
+server.component.ts
+
+
+Angular doesn't have all information it requires, add something which tells angular that this is not a normal typescript class but something special, a component, so Decorator.
+
+
+Decorators: A typescript feature which allow you to enhance class, elements. ex. @Component (@ sign)
+
+
+Once you've created new component, register it, inside app.module.ts
+
+Angular uses,
+Components: To build webpages
+Modules: to bundle different pieces of components into packages
+

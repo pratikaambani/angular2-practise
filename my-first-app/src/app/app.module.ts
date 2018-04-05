@@ -1,20 +1,26 @@
 import { BrowserModule } from '@angular/platform-browser';
+// This decorator is also added
 import { NgModule } from '@angular/core';
 import {FormsModule} from '@angular/forms';
 
 
 import { AppComponent } from './app.component';
+//Register, don't add .ts extension
+import { ServerComponent} from './server/server.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    //Registering Component
+    ServerComponent
   ],
   imports: [
     BrowserModule,
     FormsModule
   ],
   providers: [],
+  //Which components should be taken into consideration
   bootstrap: [AppComponent]
 })
 export class AppModule { }
