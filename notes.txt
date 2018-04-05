@@ -138,3 +138,7 @@ Component Styles:
 add bootstrap classes and use em in app.component.html
 
 app.component.css:
+
+alternatively,
+remove styleUrls and use styles array
+this one will be given priority
