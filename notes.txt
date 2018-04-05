@@ -128,3 +128,6 @@ Add newly created component inside the parent component or vice versa
 Also ensure parent one is registered in the mail app.component.ts file
 
 Check the same in F12
+
+
+Instead of using external templates for styling we can use inline as well #template instead of #templateUrl
