@@ -74,3 +74,6 @@ Animations and Testing:
 
 Installing Bootstrap:
 also edit angular-cli.json
+npm install --save bootstrap
+
+
