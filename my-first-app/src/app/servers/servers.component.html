@@ -18,7 +18,13 @@ Server Creation Status : {{serverCreationStatus}}
 
 <br />
 <label>Server Name(Using Data and Event Binding): </label>: {{serverName}}
-<input 
+<br />
+<!-- default name will be visible in 2nd case(two way data binding) but not in 1st case(event binding) -->
+using event: <input 
 	type="text"
 	class="form-control"
 	(input)="onUpdateServer($event)">
+using ngmodel: <input 
+	type="text"
+	class="form-control"
+	[(ngModel)] = "serverName"	>

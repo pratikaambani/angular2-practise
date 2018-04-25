@@ -194,3 +194,7 @@ i.e. Click the button
 
 Passing and Using Data with Event Binding:
 Simply on input event pass and fetch data via (<HTMLInputElement>event.target).value;
+
+
+Ch: 29 Two way data binding
+Combination of Event binding and property binding
