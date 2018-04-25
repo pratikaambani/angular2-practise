@@ -8,6 +8,6 @@
 
 <ol>
 	<li>Server ID: {{serverId}}</li>
-	<li>Server Status: {{serverStatus}}</li>
+	<li [ngStyle]="{backgroundColor: getColor()}">Server Status: {{serverStatus}}</li>
 	<li>Server Status: {{getServerTimezone()}}</li>
 </ol>

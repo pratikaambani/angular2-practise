@@ -3,3 +3,4 @@
 /my-first-app/node_modules
 
 /my-first-app/terminal.glue
+.angulardoc.json
