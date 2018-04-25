@@ -191,3 +191,6 @@ Event Binding:
 After clicked, sending instructions from html back to ts logic
 
 i.e. Click the button
+
+Passing and Using Data with Event Binding:
+Simply on input event pass and fetch data via (<HTMLInputElement>event.target).value;

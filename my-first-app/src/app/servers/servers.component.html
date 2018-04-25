@@ -15,3 +15,10 @@ Allow New Server=<b [innerText]="allowNewServer"> </b>
 
 <br />
 Server Creation Status : {{serverCreationStatus}}
+
+<br />
+<label>Server Name(Using Data and Event Binding): </label>: {{serverName}}
+<input 
+	type="text"
+	class="form-control"
+	(input)="onUpdateServer($event)">
