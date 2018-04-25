@@ -198,3 +198,10 @@ Simply on input event pass and fetch data via (<HTMLInputElement>event.target).v
 
 Ch: 29 Two way data binding
 Combination of Event binding and property binding
+
+Directives:
+Instructions in the dom, i.e. Components
+
+Built In directives:ng-if, 
+
+Check browser console, whole line of block is not there unless required
