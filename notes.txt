@@ -207,3 +207,5 @@ Built In directives:ng-if,
 Check browser console, whole line of block is not there unless required
 
 additional usecase of default/else
+
+ng-class
