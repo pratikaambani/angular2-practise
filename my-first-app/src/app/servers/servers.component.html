@@ -15,8 +15,10 @@ Allow New Server=<b [innerText]="allowNewServer"> </b>
 
 <br />
 <!-- Server Creation Status : {{serverCreationStatus}} -->
-<p *ngIf="serverCreated">Server was created, and name is:' {{serverName}}</p>
-
+<p *ngIf="serverCreated; else noServer">Server was created, and name is:' {{serverName}}</p>
+<ng-template #noServer>
+	<p>No server was created</p>
+</ng-template>
 <!-- <br />
 <label>Server Name(Using Data and Event Binding): </label>: {{serverName}} -->
 <br />
