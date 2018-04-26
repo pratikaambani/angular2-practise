@@ -237,3 +237,8 @@ Planning:
 		Receipe
 --
 ng new course
+
+We require basic styling
+npm install --save bootstrap
+
+Inform CLI that bootstrap should be included: mention the same in angular-cli.json
