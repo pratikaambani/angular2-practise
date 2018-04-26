@@ -212,3 +212,10 @@ ng-class
 
 
 adding ngFor
+
+
+03 Course Project
+-------------------
+
+Go to,
+feature/course-project and come back here to master branch.
