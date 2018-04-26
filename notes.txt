@@ -271,3 +271,5 @@ app
 ng g c shopping-list --spec false
 ng g c shopping-list/shopping-edit --spec false
 
+
+Using and linking all created components
