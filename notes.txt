@@ -244,3 +244,11 @@ npm install --save bootstrap
 Inform CLI that bootstrap should be included: mention the same in angular-cli.json
 
 added header component and registered it under app component - manually
+
+
+To generate new component from CLI,
+ng generate component cName 
+
+alternatively:  ng g c cName (--spec false)
+
+ng g c recipes --spec false

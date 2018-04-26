@@ -2,12 +2,14 @@ import { HeaderCompnent } from './header/header.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
+import { RecipesComponent } from './recipes/recipes.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     //register components over here
-    HeaderCompnent
+    HeaderCompnent,
+    RecipesComponent
   ],
   imports: [
     BrowserModule
