@@ -217,5 +217,23 @@ adding ngFor
 03 Course Project
 -------------------
 
-Go to,
-feature/course-project and come back here to master branch.
+Planning:
+	Features - 
+		Shopping List
+		Receipe Book
+	
+	Components - 
+		Root Component : holding whole application,
+		Header : to nevigate between Shopping List and Receipe Book
+
+		Shopping List
+		Shopping List Edit
+		Receipe List
+		Receipe Item
+		Receipe Detail
+
+	Model(Data) - 
+		Ingredient
+		Receipe
+--
+ng new course
