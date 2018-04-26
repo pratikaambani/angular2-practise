@@ -273,3 +273,5 @@ ng g c shopping-list/shopping-edit --spec false
 
 
 Using and linking all created components
+
+Adding navigation bar
