@@ -293,3 +293,6 @@ Using Augury(Chrome Plugin) to debug Angular application
 Module Understanding
 
 Component and Data Binding
+
+Segregating application into different componenets
+added cockpit and server-element components
