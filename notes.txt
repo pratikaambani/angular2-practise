@@ -278,3 +278,18 @@ ng g c shopping-list/shopping-edit --spec false
 Using and linking all created components
 
 Adding navigation bar
+
+
+04 Debugging
+-------------------
+
+Using Augury(Chrome Plugin) to debug Angular application
+
+
+
+05 Components & Databinding Deep Dive
+-------------------
+
+Module Understanding
+
+Component and Data Binding
