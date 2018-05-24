@@ -296,3 +296,23 @@ Component and Data Binding
 
 Segregating application into different componenets
 added cockpit and server-element components
+
+Custom property and event binding:
+inter component communication
+
+HTML elements -> Native properties and events
+Directives	  -> Custom properties and events
+Components	  -> Custom properties and events
+
+by default, all properties are accessible inside component not outside
+Solution: @Input: to bind properties
+
+Aliasing: using @Input('customAlias')
+
+Case: When we want to inform about changes of child component to parent component
+
+We want to inform app componenet about new server getting created.
+
+passing information from cockpit to the app component
+
+@Output: To transmit information outside component

@@ -1,3 +1,10 @@
-<p>
-  server-element works!
-</p>
+<div
+class="panel panel-default">
+<div class="panel-heading">{{ element1.name }}</div>
+<div class="panel-body">
+  <p>
+    <strong *ngIf="element1.type === 'server'" style="color: red">{{ element1.content }}</strong>
+    <em *ngIf="element1.type === 'blueprint'">{{ element1.content }}</em>
+  </p>
+</div>
+</div>
